@@ -1,0 +1,26 @@
+{
+  "name": "rinha-backend-24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayanlolv/rinha-24-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayanlolv/rinha-24-js/issues"
+  },
+  "homepage": "https://github.com/brayanlolv/rinha-24-js#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.0"
+  }
+}
