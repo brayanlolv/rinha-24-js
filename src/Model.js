@@ -1,4 +1,4 @@
- class Transacao{
+class Transacao{
     id
     valor
     tipo
@@ -8,11 +8,11 @@
     constructor(id,valor,tipo,descricao){
 
         if(
-            valor<0 ||
-            tipo != 'p' || tipo != 'd' ||
-            descricao.length > 10 || descricao.length < 1
+            valor < 0
+            ||(tipo != 'd' && tipo != 'c' )         
+            ||descricao.length > 10 || descricao == "" 
 
-        )throw 422
+        ){throw 422}
 
         this.valor = valor
         this.tipo = tipo
@@ -24,5 +24,8 @@
     }
 
  }
+
+
+
 
  export {Transacao}
