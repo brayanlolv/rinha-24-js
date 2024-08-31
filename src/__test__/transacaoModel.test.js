@@ -23,7 +23,7 @@ describe("Transacao construtor",()=>{
 
     describe("expected sucess ",()=>{
         test("exemplo1",()=>{
-            const classInstance = new Transacao(1,1000,"c","descricao")
+            const classInstance = new Transacao(1000,"c","descricao")
             expect(classInstance.valor).toBe(1000)
             expect(classInstance.tipo).toBe("c")
             expect(classInstance.descricao).toBe("descricao")

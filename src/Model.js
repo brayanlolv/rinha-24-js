@@ -1,11 +1,11 @@
 class Transacao{
-    id
+    //talvez devesse ter um id 
     valor
     tipo
     descricao
 
     
-    constructor(id,valor,tipo,descricao){
+    constructor(valor,tipo,descricao){
 
         if(
             valor < 0
@@ -16,8 +16,6 @@ class Transacao{
 
         this.valor = valor
         this.tipo = tipo
-        descricao = descricao
-        this.id = id
         this.descricao = descricao
 
     
@@ -25,7 +23,15 @@ class Transacao{
 
  }
 
+class Cliente{
+    //era pra ter um id
+    limite
+    saldo
+    constructor(limite,saldo){
+        this.limite = limite
+        this.saldo
+    }
+}
 
 
-
- export {Transacao}
+ export {Transacao, Cliente}
