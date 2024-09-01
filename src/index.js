@@ -19,6 +19,6 @@ server.post("/clientes/:id/transacoes",fazerTransacao)  //oficial
 
 //server.get("/clientes/:id/transacoes",fazerTransacao)  //test
 
-server.get( "/clientes/[id]/extrato", obterExtrato)
+server.get( "/clientes/:id/extrato", obterExtrato)
 
 server.listen(3000,(console.log("rodando na porta 3000")))

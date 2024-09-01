@@ -1,1 +1,27 @@
 usar o jest no transacao model
+
+Emissorabadnintendo: transactions /:date then use date == regex if year first or month
+Emissorabadnintendo: if month and no year after then just show recent years month
+Emissorabadnintendo: if year and month or month and year regex is true show it in the order which is true
+Emissorabadnintendo: then split at /
+Emissorabadnintendo: or dash or w.e
+Emissorabadnintendo: ew
+Emissorabadnintendo: just use more resources that already is there for ya
+Emissorabadnintendo: nodejs http/https package
+Emissorabadnintendo: self assigned cert
+Emissorabadnintendo: throw domain towards your server ip
+Emissorabadnintendo: unless you use https with ssl certs
+Emissorabadnintendo: then u gonna need to forward to it from domain and the ssl to ya server
+Emissorabadnintendo: either way pretty easy to make a live domain
+
+Emissorabadnintendo: i dont use docker or nothing to start my app.js
+Emissorabadnintendo: screen -S app and sudo node app.js
+
+
+
+Emissorabadnintendo: yep most ppl use forever/ docker and other methods to host apps
+Emissorabadnintendo: if i remember wtf docker is correctly
+Emissorabadnintendo: i dont use it
+
+//pm2
+pw2

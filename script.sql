@@ -28,8 +28,12 @@ CREATE TABLE transacoes(
     valor INTEGER,
     tipo CHAR,
     descricao VARCHAR(10),
-    realizada_em TIMESTAMP,
+    realizada_em TIMESTAMP DEFAULT current_timestamp,
     
 
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 )
+
+//talvez precisse dessa merda
+select * from transacoes Left Join clientes on cliente_id=id
+SELECT * FROM transacoes ORDER BY realizada_em DESC LIMIT 10 
